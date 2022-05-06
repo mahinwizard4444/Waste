@@ -1,19 +1,24 @@
 class script(object):
     START_TXT = """<b>𝙷𝙴𝙻𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/NEOAutofilterBot><b>𝙽𝙴𝙾</b></a>. 𝙸 𝙰𝙼 𝙰𝙽 𝙰𝚅𝙴𝚁𝙰𝙶𝙴 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..!</b>"""
+𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/Devil0Bot_Bot><b>𝙰𝙹𝙰𝚇</b></a>. 𝙸 𝙰𝙼 𝙰𝙽 𝙰𝚅𝙴𝚁𝙰𝙶𝙴 𝙰𝚄𝚃𝙾-𝙵𝙸𝙻𝚃𝙴𝚁 𝙱𝙾𝚃. 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚄𝚂𝙴 𝙼𝙴 𝙾𝙽 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿. 𝙰𝙳𝙳 𝙼𝙴 𝙰𝙽𝙳 𝙼𝙰𝙺𝙴 𝙼𝙴 𝙰𝙳𝙼𝙸𝙽..!</b>"""
     
     
-    STATUS_TXT = """📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
+    STATUS_TXT = """╔══╦══╦══╦══╦══╗
+║══╬╗╔╣╔╗╠╗╔╣══╣
+╠══║║║║╠╣║║║╠══║
+╚══╝╚╝╚╝╚╝╚╝╚══╝
+
+📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
 👤 ᴜsᴇʀs: <code>{}</code>
 👥 ɢʀᴏᴜᴘs: <code>{}</code>
 🗂️ ᴏᴄᴄᴜᴘɪᴇᴅ: <code>{}</code> """
  
-    LOG_TEXT_G = """📮 ᴄᴏʙʏ ʙᴏᴛ #NewGroup
+    LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
 Added By - {}
 """
-    LOG_TEXT_P = """📮 ᴄᴏʙʏ ʙᴏᴛ #NewUser
+    LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Name - {}
 """
