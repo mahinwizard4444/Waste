@@ -86,7 +86,7 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('🎬 Join 🎬', url='https://t.me/M76Links')
         ]
     )
    
@@ -147,7 +147,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/MWUpdatez><b>ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ</b></a>", disable_web_page_preview=True)            
+            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/M76Links><b>ᴜᴘᴅᴀᴛᴇᴢ</b></a>", disable_web_page_preview=True)            
             await asyncio.sleep(14)
             await k.delete()
 
@@ -379,12 +379,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ms = await client.send_cached_media(
                     chat_id=CH_FILTER,
                     file_id=file_id,
-                    caption=f'<b><i>📟 Name : <a href=https://t.me/MWUpdatez>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>🧑🏻‍💻 Requested By : {query.from_user.mention}\n🚀 Group : {query.message.chat.title}</i></b>',
+                    caption=f'<b><i>🎬 Name : <a href=https://t.me/M76Links>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>🧑🏻‍💻 Requested By : {query.from_user.mention}\n🚀 Group : {query.message.chat.title}</i></b>',
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
                 f'<b><i>{query.from_user.mention} Your File Is Ready ✨</i></b>\n\n'
-                f'<b><i>📟 Name : <a href=https://t.me/MWUpdatez>{title}</a></i></b>\n\n'
+                f'<b><i>🎬 Name : <a href=https://t.me/M76Links>{title}</a></i></b>\n\n'
                 f'<b><i>🎗 Size : {size}</b></i>\n\n'
                 '<i>⚡️Click The Below Button For Files.⚡️</i>',
                 True,
@@ -606,7 +606,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA')
+            InlineKeyboardButton('📺 Group 📺', url='https://t.me/TvSeriesLand4U')
         ]
     )
     
@@ -659,7 +659,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"<b><i>📟 Movie Name : {search}\n👩🏻‍💻 Requested By : {message.from_user.mention}\n🚀 Group : {message.chat.title}</i></b>"
+        cap = f"<b><i>🎬 Movie Name : {search}\n👩🏻‍💻 Requested By : {message.from_user.mention}\n🚀 Group : {message.chat.title}</i></b>"
     if imdb and imdb.get('poster'):
         try:
             fmsg = await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
